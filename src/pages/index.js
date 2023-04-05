@@ -2,11 +2,12 @@ import Head from "next/head"
 import PostCard from "../components/PostCard"
 import PostWidget from "../components/PostWidget"
 import Categories from "../components/Categories"
-const posts = [
-  {title: "Post 1", excerpt: "post-1"},
-  {title: "Post 2", excerpt: "post-2"},
-  {title: "Post 3", excerpt: "post-3"},
-]
+import {getPost} from "../services"
+// const posts = [
+//   {title: "Post 1", excerpt: "post-1"},
+//   {title: "Post 2", excerpt: "post-2"},
+//   {title: "Post 3", excerpt: "post-3"},
+// ]
 
 export default function Home() {
   return (

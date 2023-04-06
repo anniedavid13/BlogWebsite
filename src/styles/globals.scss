@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
+
   &:before{
     content:'';
     content: "";
@@ -15,7 +16,7 @@ body {
     height: 100vh;
     // background: linear-gradient(to right bottom, #6d327c, #485DA6, #00a1ba, #01b18e, #32b37b);
     // background: #D3D3D3;
-    background-image: url("../../public/bg.jpeg");
+    background-image: url("../../public/assets/bg.jpeg");
     position: fixed;
     left: 0;
     top: 0;
